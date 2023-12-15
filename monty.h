@@ -74,7 +74,7 @@ void top_rot(stack_t **head, unsigned int counter);
 void bottom_rot(stack_t **head, __attribute__((unused)) unsigned int counter);
 void addNode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
-void f_queue(stack_t **head, unsigned int counter);
-void f_stack(stack_t **head, unsigned int counter);
+void queue_fn(stack_t **head, unsigned int counter);
+void stack_fn(stack_t **head, unsigned int counter);
 #endif
 

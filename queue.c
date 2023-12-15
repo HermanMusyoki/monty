@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_queue - a function that prints the beginning of the stack
+ * queue_fn - a function that prints the beginning of the stack
  * @head: double pointer to the beginning of the stack
  * @counter: parameter for line count
  * Return: nothing
 */
-void f_queue(stack_t **head, unsigned int counter)
+void queue_fn(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;

@@ -23,8 +23,8 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"pstr", printString},
 				{"rotl", top_rot},
 				{"rotr", bottom_rot},
-				{"queue", f_queue},
-				{"stack", f_stack},
+				{"queue", queue_fn},
+				{"stack", stack_fn},
 				{NULL, NULL}
 				};
 	unsigned int i = 0;
